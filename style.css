@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('dibujado-mano-fondo_23-2151019794.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 400px;
+  }
+  
+  input,
+  button {
+    margin: 10px 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  button:hover {
+    background-color: #d8c1f1;
+    cursor: pointer;
+  }
+  

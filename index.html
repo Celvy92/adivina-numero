@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Adivina el número</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <div id="game-container">
+    <h1>Adivina el número</h1>
+    <p>Ingresa un número entre 1 y 100:</p>
+    <input type="number" id="guess-input" min="1" max="100" />
+    <button id="guess-btn">Adivinar</button>
+    <button id="reset-btn">Reiniciar</button>
+
+    <p id="result-message"></p>
+    <p>Intentos: <span id="attempts-count">0</span></p>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
